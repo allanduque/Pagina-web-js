@@ -13,7 +13,7 @@ ul{
   background-color: #252323;
   height: 60px;
 }
-main{
+main, .content{
   margin: 0 auto;
   width: 980px;
   position: relative;
@@ -132,10 +132,27 @@ button.slick-next{
   display: inline-block;
 
 }
+
 li.slick-active button {
   background-color: #00bac6;
 }
 
 .slick-initialized{
 overflow: hidden;
+}
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #818181;
+}
+.texto-destaque strong{
+  color: #646464;
+}
+.texto-destaque p{
+  font-size: 15px;
+  color: #9a9a9a;
+
 }
